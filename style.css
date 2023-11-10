@@ -23,6 +23,26 @@
 }
 
 .two{
-  background-color:red;
-  transform: rotate(90deg) translateZ(-100px) translate;
+  background-color:orange;
+  transform: rotate(90deg) translateZ(-100px) translateX(-100px);
+}
+
+.three{
+background-color: palevioletred;
+transform: rotateY(-90deg) translateZ(-100px) translateX(100px);
+}
+
+.four{
+background-color: brown;
+transform: rotateX(90deg) translateY(100px) translateZ(100px);
+}
+
+.five{
+background-color: green;
+transform: rotateX(90deg) translateZ(-100px) translateY(100px);
+}
+
+.six{
+background-color: blueviolet;
+transform: translateZ(200px);
 }
